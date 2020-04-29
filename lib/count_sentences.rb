@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    self.split("(\W)").length
+    self.split("(/\W/)").length
   end
 end
